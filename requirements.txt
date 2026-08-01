@@ -1,0 +1,11 @@
+openai>=1.50.0
+streamlit>=1.38.0
+requests>=2.31.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+numpy>=1.26.0
+
+# Optional: only needed if you switch the report-generation provider to
+# "anthropic" (pay-as-you-go, no ongoing free tier). Not required for the
+# default Groq (free) setup.
+anthropic>=0.40.0
