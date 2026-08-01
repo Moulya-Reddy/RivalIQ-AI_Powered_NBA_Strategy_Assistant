@@ -1,0 +1,188 @@
+[
+  {
+    "matchup": "BOS vs LAL",
+    "team_a_stats": {
+      "team": "Boston Celtics",
+      "abbreviation": "BOS",
+      "games_played": 93,
+      "record": "67-26",
+      "win_pct": 0.72,
+      "avg_points_scored": 115.0,
+      "avg_points_allowed": 106.3,
+      "avg_margin": 8.7,
+      "home_record": "32-15",
+      "away_record": "35-11",
+      "recent_form_last_5": "LWLWL",
+      "recent_form_margin_last_5": 0
+    },
+    "team_b_stats": {
+      "team": "Los Angeles Lakers",
+      "abbreviation": "LAL",
+      "games_played": 87,
+      "record": "51-36",
+      "win_pct": 0.586,
+      "avg_points_scored": 112.6,
+      "avg_points_allowed": 111.9,
+      "avg_margin": 0.7,
+      "home_record": "32-12",
+      "away_record": "19-24",
+      "recent_form_last_5": "LWLLL",
+      "recent_form_margin_last_5": -7
+    },
+    "generated_report": "The Boston Celtics are a strong team overall, with a 72.0% win rate over their last 93 games, averaging 115.0 points scored and 106.3 allowed per game for an average margin of +8.7. They have a notable home record of 32-15, but have been steady over their last 5 games with a record of LWLWL and an average margin of +0.0. On the road, they boast an impressive 35-11 record. The Celtics' consistent performance suggests they are a formidable opponent. \n\nThe Los Angeles Lakers have a 58.6% win rate over their last 87 games, with an average of 112.6 points scored and 111.9 allowed per game, resulting in an average margin of +0.7. They have a strong home record of 32-12, but struggle on the road with a 19-24 record. Over their last 5 games, they have trended cold with a record of LWLLL and an average margin of -7.0. The Lakers' recent performance may indicate some vulnerabilities.\n\nWhat the numbers suggest is that the Celtics' overall strength and consistent performance may give them an edge in this matchup, particularly if they can maintain their average margin of +8.7.",
+    "faithfulness_score": 0.565,
+    "faithfulness_detail": {
+      "total_numeric_claims": 23,
+      "grounded_claims": 13,
+      "ungrounded_values": [
+        32.0,
+        -15.0,
+        5.0,
+        35.0,
+        -11.0,
+        32.0,
+        -12.0,
+        19.0,
+        -24.0,
+        5.0
+      ]
+    },
+    "rl_final_win_rate": 0.65,
+    "rl_baselines": {
+      "Random baseline": 0.329,
+      "Always 2PT baseline": 0.541,
+      "Always 3PT baseline": 0.551
+    },
+    "rl_learning_curve": [
+      {
+        "episode": 0,
+        "win_rate": 0.346
+      },
+      {
+        "episode": 1000,
+        "win_rate": 0.474
+      },
+      {
+        "episode": 2000,
+        "win_rate": 0.642
+      },
+      {
+        "episode": 3000,
+        "win_rate": 0.67
+      },
+      {
+        "episode": 4000,
+        "win_rate": 0.556
+      },
+      {
+        "episode": 5000,
+        "win_rate": 0.678
+      },
+      {
+        "episode": 6000,
+        "win_rate": 0.624
+      },
+      {
+        "episode": 7000,
+        "win_rate": 0.65
+      }
+    ],
+    "radar_chart": "/Users/ananthpalreddykandhala/Downloads/rivaliq/eval/charts/radar_BOS_LAL.png",
+    "learning_curve_chart": "/Users/ananthpalreddykandhala/Downloads/rivaliq/eval/charts/learning_curve_BOS_LAL.png"
+  },
+  {
+    "matchup": "GSW vs MIL",
+    "team_a_stats": {
+      "team": "Golden State Warriors",
+      "abbreviation": "GSW",
+      "games_played": 95,
+      "record": "54-41",
+      "win_pct": 0.568,
+      "avg_points_scored": 112.5,
+      "avg_points_allowed": 110.0,
+      "avg_margin": 2.5,
+      "home_record": "27-20",
+      "away_record": "27-21",
+      "recent_form_last_5": "WLLLL",
+      "recent_form_margin_last_5": -7.2
+    },
+    "team_b_stats": {
+      "team": "Milwaukee Bucks",
+      "abbreviation": "MIL",
+      "games_played": 88,
+      "record": "50-38",
+      "win_pct": 0.568,
+      "avg_points_scored": 115,
+      "avg_points_allowed": 112.9,
+      "avg_margin": 2.1,
+      "home_record": "29-15",
+      "away_record": "21-23",
+      "recent_form_last_5": "LLWLL",
+      "recent_form_margin_last_5": -7.6
+    },
+    "generated_report": "The Golden State Warriors are a 54-41 team with a +2.5 average margin, averaging 112.5 points scored and 110.0 points allowed per game, and have a nearly even home (27-20) and away (27-21) record. Over their last 5 games, they went WLLLL with an average margin of -7.2, indicating a recent cold streak. The Warriors' overall statistics are similar to their opponents, with a matching 56.8% win rate. Their scoring and allowing averages suggest a high-scoring matchup is possible.\n\nThe Milwaukee Bucks have a similar 56.8% win rate, with a 50-38 record, and average 115 points scored and 112.9 points allowed per game for a +2.1 average margin. They have a strong home record (29-15) but are less successful on the road (21-23). Like the Warriors, the Bucks are trending cold, with a LLWLL record over their last 5 games and an average margin of -7.6. The Bucks' higher scoring average (115 points) could be a key factor in the matchup.\n\nWhat the numbers suggest is a closely matched game between two teams with similar win rates and average margins, both of whom are currently trending cold.",
+    "faithfulness_score": 0.44,
+    "faithfulness_detail": {
+      "total_numeric_claims": 25,
+      "grounded_claims": 11,
+      "ungrounded_values": [
+        54.0,
+        -41.0,
+        27.0,
+        -20.0,
+        27.0,
+        -21.0,
+        5.0,
+        50.0,
+        -38.0,
+        29.0,
+        -15.0,
+        21.0,
+        -23.0,
+        5.0
+      ]
+    },
+    "rl_final_win_rate": 0.554,
+    "rl_baselines": {
+      "Random baseline": 0.304,
+      "Always 2PT baseline": 0.493,
+      "Always 3PT baseline": 0.52
+    },
+    "rl_learning_curve": [
+      {
+        "episode": 0,
+        "win_rate": 0.368
+      },
+      {
+        "episode": 1000,
+        "win_rate": 0.512
+      },
+      {
+        "episode": 2000,
+        "win_rate": 0.614
+      },
+      {
+        "episode": 3000,
+        "win_rate": 0.626
+      },
+      {
+        "episode": 4000,
+        "win_rate": 0.634
+      },
+      {
+        "episode": 5000,
+        "win_rate": 0.628
+      },
+      {
+        "episode": 6000,
+        "win_rate": 0.6
+      },
+      {
+        "episode": 7000,
+        "win_rate": 0.554
+      }
+    ],
+    "radar_chart": "/Users/ananthpalreddykandhala/Downloads/rivaliq/eval/charts/radar_GSW_MIL.png",
+    "learning_curve_chart": "/Users/ananthpalreddykandhala/Downloads/rivaliq/eval/charts/learning_curve_GSW_MIL.png"
+  }
+]
