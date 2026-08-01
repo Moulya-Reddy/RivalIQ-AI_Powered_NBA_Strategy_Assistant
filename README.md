@@ -24,7 +24,7 @@ The application retrieves live NBA statistics, builds contextual scouting report
 
 The **`docs/`** folder contains demonstration assets for the project:
 
-- **`demo.gif`** – Walkthrough of the Streamlit application showing scouting report generation, analytics, and reinforcement learning workflow.
+- **`demo.mov`** – Walkthrough of the Streamlit application showing scouting report generation, analytics, and reinforcement learning workflow.
 - **`run_eval.png`** – Screenshot of the evaluation framework displaying faithfulness scores and benchmark results.
 
 These assets provide a quick overview of the project without requiring local setup.
