@@ -5,6 +5,7 @@ scikit-learn>=1.4.0
 matplotlib>=3.8.0
 numpy>=1.26.0
 
+# python-dotenv
 # Optional: only needed if you switch the report-generation provider to
 # "anthropic" (pay-as-you-go, no ongoing free tier). Not required for the
 # default Groq (free) setup.
